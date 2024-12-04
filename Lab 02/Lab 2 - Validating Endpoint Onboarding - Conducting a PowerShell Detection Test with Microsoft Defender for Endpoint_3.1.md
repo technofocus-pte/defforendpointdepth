@@ -1,4 +1,4 @@
-**Lab 2 - Validating Endpoint Onboarding: Conducting a PowerShell
+## **Lab 2 - Validating Endpoint Onboarding: Conducting a PowerShell
 Detection Test with Microsoft Defender for Endpoint**
 
 **Introduction**
@@ -13,10 +13,9 @@ successful, the new alert will appear in a few minutes.
   on Windows 11 and Windows Server 2019 devices by conducting a
   PowerShell detection test.
 
-# Exercise 1: Run a detection test on a newly onboarded Microsoft Defender for Endpoint devices
+**Exercise 1: Run a detection test on a newly onboarded Microsoft Defender for Endpoint devices**
 
-## Task 1: Verify Microsoft Defender for End point onboarding of a Windows 11 device using a PowerShell detection test
-
+**Task 1: Verify Microsoft Defender for End point onboarding of a Windows 11 device using a PowerShell detection test**
 1. In Azure portal search bar, type virtual machines, then click on
 Virtual machines under Services.
 
@@ -92,7 +91,7 @@ generated](./media/image10.png)
 
 ![](./media/image11.png)
 
-## Task 2: Verify Microsoft Defender for Endpoint onboarding of a Windows Server 2019 server device using a PowerShell detection test
+**Task 2: Verify Microsoft Defender for Endpoint onboarding of a Windows Server 2019 server device using a PowerShell detection test**
 
  1. In the Azure portal search bar, type virtual machine, then
  navigate and click on **Virtual machines** under **Services**.
