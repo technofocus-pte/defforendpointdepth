@@ -1,5 +1,13 @@
 ## Lab 5: Investigating Microsoft Defender for Endpoint Generated Real-Time Alerts in Microsoft Sentinel**
 
+@[Text to display][multi-line-command]
+
+Multi-line-command-id:
+```
+Multi-line-command-id
+Command-goes-here
+```
+
 ## Introduction
 
 Microsoft Sentinel's Microsoft Defender XDR incident integration allows
