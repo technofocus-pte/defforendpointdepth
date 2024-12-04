@@ -1,6 +1,6 @@
-# Lab 3: Endpoint Security and Attack Detection using Defender for Endpoint
+## Lab 3: Endpoint Security and Attack Detection using Defender for Endpoint
 
-## Introduction
+**Introduction**
 
 Endpoint detection and response capabilities in Defender for Endpoint
 provide advanced attack detections that are near real-time and
@@ -17,7 +17,7 @@ to collectively investigate and respond to threats.
 In this lab, you’ll be creating a multi-stage incident in Microsoft
 Defender by executing malicious documents and scripts in testvm1.
 
-## Objectives
+**Objectives**
 
 - To install Git and download repositories having malware payloads on
   testvm1 in Azure.
@@ -30,7 +30,7 @@ Defender by executing malicious documents and scripts in testvm1.
 
 **Note**: This feature is the part of Microsoft Defender for Endpoint P1.
 
-## **Task 1: Install git and download the payloads on testvm1**
+**Task 1: Install git and download the payloads on testvm1**
 
  1. In the Azure portal search bar, type `virtual machine`, then
  navigate and click on **Virtual machines** under **Services**.
@@ -204,7 +204,7 @@ generated](./media/image29.png)
 
 ![](./media/image30.png)
 
-## **Task 2: Performing a ransomware attack using RanSim**
+**Task 2: Performing a ransomware attack using RanSim**
 
 RanSim is a ransomware simulation script written in PowerShell. It
 recursively encrypts files in the target directory using 256-bit AES
@@ -304,7 +304,7 @@ generated](./media/image44.png)
 8.  Open **RanSim** folder. Click anywhere inside the folder, then right
     click and select **Open in terminal**.
 
-**,**![](./media/image45.png)
+![](./media/image45.png)
 
 **Note**: If you did not see Windows Terminal, then use powershell and provide the specific path of the folder, then run the script. Also note that the Windows Antivirus will stop the execution of ransomware and you may see error while executing the code. Ignore it and  move on to the next step. 
 
@@ -323,7 +323,7 @@ generated](./media/image46.png)
 
 ![](./media/image47.png)
 
-## **Task 3: Executing Malicious Documents and Scripts**
+**Task 3: Executing Malicious Documents and Scripts**
 
 1.  In **Git Bash**, execute the following command to download
     **examples** folder containing various malware files and scripts.
@@ -425,7 +425,7 @@ generated](./media/image63.png)
 **Note**: Alerts generated will be started within 15-30 minutes in
 Microsoft Defender Portal.
 
-## **Task 4: Checking protection action and recommendations from Windows Security**
+**Task 4: Checking protection action and recommendations from Windows Security**
 
 1.  In **testvm1** click on the search icon, in the search bar type
     `virus and threat protection`, then navigate and click on
