@@ -1,4 +1,4 @@
-## **Lab 1 - Setting up the environment for Microsoft Copilot for Security**
+## **Lab 1 - Setting up the environment for Microsoft Defender for Endpoint**
 
 **Introduction**
 
