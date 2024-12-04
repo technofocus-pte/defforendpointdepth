@@ -1,5 +1,4 @@
-## **Lab 2 - Validating Endpoint Onboarding: Conducting a PowerShell
-Detection Test with Microsoft Defender for Endpoint**
+## Lab 2 - Validating Endpoint Onboarding: Conducting a PowerShell Detection Test with Microsoft Defender for Endpoint**
 
 **Introduction**
 
@@ -68,14 +67,14 @@ generated](./media/image8.png)
 
 10. In the command prompt, enter the following code and press the
     **Enter** button.
-
-Copycode
-
+    
+```
 powershell.exe -NoExit -ExecutionPolicy Bypass -WindowStyle Hidden
 $ErrorActionPreference= 'silentlycontinue';(New-Object
 System.Net.WebClient).DownloadFile('http://127.0.0.1/1.exe',
 'C:test-WDATP-testinvoice.exe');Start-Process
 'C:test-WDATP-testinvoice.exe'
+```
 
 11. The Command Prompt window closes automatically. Wait for 5-10
     minutes. If successful, a new alert appears in the portal for the
@@ -159,13 +158,13 @@ generated](./media/image21.png)
 12. In the command prompt, enter the following code and press the
     **Enter** button.
 
-Copy code
-
-**powershell.exe -NoExit -ExecutionPolicy Bypass -WindowStyle Hidden
+```
+powershell.exe -NoExit -ExecutionPolicy Bypass -WindowStyle Hidden
 $ErrorActionPreference= 'silentlycontinue';(New-Object
 System.Net.WebClient).DownloadFile('http://127.0.0.1/1.exe',
 'C:test-WDATP-testinvoice.exe');Start-Process
-'C:test-WDATP-testinvoice.exe'**
+'C:test-WDATP-testinvoice.exe'
+```
 
 13. The Command Prompt window closes automatically. Wait for 5-10
     minutes. If successful, a new alert appears in the portal for the
