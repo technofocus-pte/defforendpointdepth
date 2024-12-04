@@ -122,6 +122,8 @@ generated](./media/image10.png)
 
 ![Screenshot](./media/image13.png)
 
+**Note**:If you have previously used an Azure pass and provided your personal information with a specific email ID, please use a different email ID this time instead of the same one. **If you have not used an Azure pass before, you can ignore this note.**
+
 10. Enter your details in **Your Profile** page, tick all the check
     boxes, and then click on **Sign up** button.
 
@@ -267,14 +269,14 @@ which included Microsoft Defender for Endpoint feature.
 
 3.  In the **Create a virtual machine** page, navigate to **Resource
     group** row and click on **Create new**. Enter the name of the
-    resource group (here, we entered **MCS-RG** as resource group name),
+    resource group (here, we entered +++**MCS-RG**+++ as resource group name),
     then click on the **OK** button.
 
  ![](./media/image40.png)
 
 5. Navigate to **Instance details** section, in the **virtual machine
 name** field, enter the name of the virtual machine (here, we
-entered [**TESTSERVER1**]. In
+entered +++**TESTSERVER1**+++. In
 the **Region** field, select **Southeast Asia**. In the **Availability
 zone** field, ensure that **Zone 1** is selected. In the **Security
 type** field, click on the dropdown and select **Standard**. In
@@ -373,7 +375,7 @@ generated](./media/image47.png)
  generated](./media/image56.png)
 
 15. On **Enter your credentials** dialog box, enter the password (here,
-    **Administrator5801@#**) and click on the **OK** button.
+    +++**Administrator5801@#**+++) and click on the **OK** button.
 
 ![](./media/image57.png)
 
@@ -917,7 +919,7 @@ generated](./media/image134.png)
 ## Task 7: Preparing the prerequisite on the testvm1 virtual machine
 
 1. Go back to Azure portal. In the Azure portal search bar, type
-**virtual machines**, then navigate and click on **Virtual machines**
++++**virtual machines**+++, then navigate and click on **Virtual machines**
 under **Services**.
 
 ![](./media/image136.png)
