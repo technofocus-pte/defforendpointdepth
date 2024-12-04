@@ -1,4 +1,4 @@
-## Lab 5: Investigating Microsoft Defender for Endpoint Generated Real-Time Alerts in Microsoft Sentinel**
+## Lab 5: Investigating Microsoft Defender for Endpoint Generated Real-Time Alerts in Microsoft Sentinel
 
 ## Introduction
 
