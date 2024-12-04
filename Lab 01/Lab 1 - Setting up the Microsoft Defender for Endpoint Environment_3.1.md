@@ -1,4 +1,4 @@
-## **Lab 01 - Setting up the Microsoft Defender for Endpoint Environment**
+## **Lab 1 - Setting up the Microsoft Defender for Endpoint Environment**
 
 **Introduction**
 
@@ -31,7 +31,7 @@ macOS, Linux, Android, and iOS devices.
   monitoring.
 
 - To create a new user account (**Robert Frost**) with Office 365
-  license for testing purposes.
+  license E5 license for testing purposes.
 
 - To prepare the testvm1 virtual machine for upcoming tasks, including
   installing Microsoft 365 apps.
