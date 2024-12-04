@@ -1,7 +1,7 @@
 ## Lab 5: Investigating Microsoft Defender for Endpoint Generated Real-Time Alerts in Microsoft Sentinel**
-```
+
 ## Introduction
-```
+
 Microsoft Sentinel's Microsoft Defender XDR incident integration allows
 you to stream all Microsoft Defender XDR incidents into Microsoft
 Sentinel and keep them synchronized between both portals. Incidents from
