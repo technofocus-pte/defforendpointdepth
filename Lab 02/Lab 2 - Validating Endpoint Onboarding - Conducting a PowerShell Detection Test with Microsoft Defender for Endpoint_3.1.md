@@ -49,7 +49,7 @@ generated](./media/image5.png)
  generated](./media/image6.png)
 
 7.  On **Enter your credentials** dialog box, enter the password (here,
-    **Administrator5801@***) and click on the **OK** button.
+    **Administrator5801@#**) and click on the **OK** button.
 
 ![A screenshot of a computer screen Description automatically
 generated](./media/image7.png)
@@ -64,6 +64,10 @@ generated](./media/image8.png)
     Prompt**, select **Run as administrator**.
 
 ![](./media/image9.png)
+
+10. If **Do you want to allow this app to make changes to your device?** dialog box appears, then click on **Yes** button.
+
+![](./media/qhk.png)
 
 10. In the command prompt, enter the following code and press the
     **Enter** button.
@@ -130,7 +134,7 @@ generated](./media/image15.png)
  generated](./media/image18.png)
 
 8.  On **Enter your credentials** dialog box, enter the password (here,
-    **Administrator5801@***) and click on the **OK** button.
+    **Administrator5801@#**) and click on the **OK** button.
 
 ![](./media/image19.png)
 
@@ -150,6 +154,10 @@ generated](./media/image21.png)
     administrator**.
 
 ![](./media/image22.png)
+
+10. If **Do you want to allow this app to make changes to your device?** dialog box appears, then click on **Yes** button.
+
+![](./media/qhk.png)
 
 12. In the command prompt, enter the following code and press the
     **Enter** button.
