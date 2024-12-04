@@ -1,4 +1,4 @@
-# Lab 8: Endpoint Security and Attack Detection using Defender for Endpoint
+# Lab 3: Endpoint Security and Attack Detection using Defender for Endpoint
 
 ## Introduction
 
@@ -425,8 +425,7 @@ generated](./media/image63.png)
 **Note**: Alerts generated will be started within 15-30 minutes in
 Microsoft Defender Portal.
 
-**Task 4: Checking protection action and recommendations from Windows
-Security**
+## **Task 4: Checking protection action and recommendations from Windows Security**
 
 1.  In **testvm1** click on the search icon, in the search bar type
     `virus and threat protection`, then navigate and click on
