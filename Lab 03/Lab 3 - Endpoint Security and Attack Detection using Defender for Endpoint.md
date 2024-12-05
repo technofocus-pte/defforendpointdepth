@@ -243,8 +243,6 @@ generated](./media/image50.png)
 ![A screenshot of a computer Description automatically
 generated](./media/image51.png)
 
-**Note**: Windows Security attempts to identify and remove any malicious documents. If you did not find any malicious document mentioned in the step, then skip that particular step and proceed to the next, as the primary goal of this task is to generate alerts in the Defender portal.
-
 7.  Right click on **RS4_WinATP-Intro-Invoice** and open the file in
     word.
 
