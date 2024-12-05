@@ -1,4 +1,4 @@
-## **Microsoft Defender for Endpoint Incidents Management and Analysis**
+## **Lab 4 - Microsoft Defender for Endpoint Incidents Management and Analysis**
 
 **Objective**
 
