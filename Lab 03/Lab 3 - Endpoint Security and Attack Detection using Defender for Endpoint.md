@@ -447,7 +447,7 @@ generated](./media/image44.png)
 9.  In the command prompt, execute the following command to initiate a
     ransomware attack. Crosscheck the script before executing.
 
-`.RanSim.ps1 -Mode encrypt`
+`.\RanSim.ps1 -Mode encrypt`
 
 
 **Note**: The script may be successfully executed or it might be blocked
