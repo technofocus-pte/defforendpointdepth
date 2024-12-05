@@ -552,9 +552,6 @@ generated](./media/image85.png)
 ![A white background with black text Description automatically
 generated](./media/image86.png)
 
-**  
-**
-
 **Summary**
 
 In this lab, you’ve learned to effectively deploy, configure, and
