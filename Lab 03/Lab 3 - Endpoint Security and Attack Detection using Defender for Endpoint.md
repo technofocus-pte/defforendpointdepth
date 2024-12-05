@@ -347,7 +347,7 @@ recursively encrypts files in the target directory using 256-bit AES
 encryption. RanSim has no self-spreading capabilities and will only run
 on the system you execute it on.
 
-1.  Download the RanSim folder in testvm1 using the following script:
+1.  Go to GitBash, download the RanSim folder in testvm1 using the following script:
 
     +++**git clone https://github.com/lawndoc/RanSim.git**+++
     
