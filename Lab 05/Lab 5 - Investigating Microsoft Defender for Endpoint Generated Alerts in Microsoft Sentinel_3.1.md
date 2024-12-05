@@ -73,7 +73,7 @@ generated](./media/image5.png)
 
 6.  After few minutes, the workspace will be successfully created.
 
-> [!Note]: In case, you did not see the workspace, then refresh the page.
+**Note**: In case, you did not see the workspace, then refresh the page.
 
 ![A screenshot of a computer Description automatically
 generated](./media/image6.png)
@@ -261,15 +261,7 @@ generated](./media/image39.png)
 
 **Task 4: Generating Real-Time Alerts in Microsoft Sentinel**
 
-**Important Note**: As you have already executed the malicious documents
-and scripts in **testvm1**, Windows Security would blocked the execution
-of some of the malicious documents and scripts; therefore, if any
-documents or scripts are not successfully executed, then you can ignore
-it and move on to the next step. The goal of this task is to generate
-alerts and incident in Microsoft Sentinel.
-
-> 1\. In the Azure portal search bar, type +++**virtual machine**+++,
-> then navigate and click on **Virtual machines** under **Services**.
+1. In the Azure portal search bar, type +++**virtual machine**+++, then navigate and click on **Virtual machines** under **Services**.
 
 ![A screenshot of a computer Description automatically
 generated](./media/image41.png)
@@ -319,24 +311,22 @@ generated](./media/image48.png)
 ![A screenshot of a computer error Description automatically
 generated](./media/image49.png)
   
-11.  Navigate to **C:** folder. Delete the RanSim folder.
+11.  Navigate to **C:** drive and open the RanSim folder. In case, you did not see the RanSim PowerShell executable file, then follow the below steps, else skip these step and continue with step #14.
+   
+12.  Delete the RanSim folder.
 ![](./media/ransim1.png)
 
-12. Now, navigate to **C:\Users\Admin5802\RanSim** folder, copy the RanSim folder, paste it into **C:** because Windows Security previously removed the executed RanSim PowerShell script.
+13. Now, navigate to **C:\Users\Admin5802\RanSim** folder, copy the RanSim folder, paste it into **C:**
     
 ![](./media/ransim2.png)
 
 ![](./media/ransim3.png)
    
-12. Open the RanSim folder. Click anywhere inside the folder, then right click and select **Open in terminal**.
+14. Click anywhere inside the folder, then right click and select **Open in terminal**.
 
 ![](./media/image50.png)
 
-9.  Navigate to **C:\Users\Admin5802\RanSim** folder. Click anywhere inside the folder, then right click and select **Open in terminal**.
-
-![](./media/image50.png)
-
-10. In the command prompt, execute the following command to initiate a
+15. In the command prompt, execute the following command to initiate a
     ransomware attack.
 
 +++**.\RanSim.ps1 -Mode encrypt**+++
@@ -350,51 +340,45 @@ generated](./media/image51.png)
 
 ![](./media/image52.png)
 
-11. Navigate to **C:\Users\Admin5802**, then click on **examples**
+16. Navigate to **C:\Users\Admin5802**, then click on **examples**
     folder as shown in the below image.
 
 ![A screenshot of a computer Description automatically
 generated](./media/image53.png)
 
-12. You will see various malwares files and script.
-
-**Note**: In case, you did not find any word file mentioned in the step, then ignore that step and move on to the next step, as Windows Security might have removed that particular malicious file.
+17. You will see various malwares files and script.
 
 ![A screenshot of a computer Description automatically
 generated](./media/image54.png)
 
-13. Open **Block_Win32_imports_from_Macro_code_in_Office….** in word.
+18. Open **Block_Win32_imports_from_Macro_code_in_Office….** in word.
 
 ![A screenshot of a computer Description automatically
 generated](./media/image55.png)
 
-14. Click on **Enable Content** to execute the malware file.
+19. Click on **Enable Content** to execute the malware file.
 
 ![](./media/image56.png)
 
-15. Now, click on **RS4_WinATP-Intro-Invoice** and open the file in
+20. Now, click on **RS4_WinATP-Intro-Invoice** and open the file in
     word.
-
-**Note**: If this malware file is not successfully executed or Windows
-security block the execution, then you can ignore it and move on to the
-next steps.
 
 ![A screenshot of a computer Description automatically
 generated](./media/image57.png)
 
-16. You will be prompted to enter the password, provide the password as
+21. You will be prompted to enter the password, provide the password as
     +++**WDATP!diy#**+++ and click on the **OK** button.
 
 ![A screenshot of a computer Description automatically
 generated](./media/image58.png)
 
-17. The file will open with a **SECURITY WARNING**, click on the
+22. The file will open with a **SECURITY WARNING**, click on the
     **Enable content** button as shown in the below image.
 
 ![A screenshot of a computer Description automatically
 generated](./media/image59.png)
 
-18. You’ll be prompted about a demo attack, click on the **OK** button.
+23. You’ll be prompted about a demo attack, click on the **OK** button.
 
 ![A screenshot of a computer Description automatically
 generated](./media/image60.png)
@@ -404,13 +388,13 @@ generated](./media/image60.png)
 ![A screenshot of a computer Description automatically
 generated](./media/image62.png)
 
-19. Now, navigate and open
+24. Now, navigate and open
     **TestFile_Block_Office_applications_from_creating_executable** in
     word as shown in the below image.
 
 ![](./media/image63.png)
 
-20. Click on **Enable content**, it will execute another ransomware
+25. Click on **Enable content**, it will execute another ransomware
     attack in **testvm1**.
 
 ![](./media/image64.png)
@@ -421,12 +405,12 @@ the **OK** button.
 ![A screenshot of a computer Description automatically
 generated](./media/image65.png)
 
-21. Now, open **TestFile+OfficeChildProcess** file in word.
+26. Now, open **TestFile+OfficeChildProcess** file in word.
 
 ![A screenshot of a computer Description automatically
 generated](./media/image66.png)
 
-22. Click on **Enable Content**. If you see an error, the action was
+27. Click on **Enable Content**. If you see an error, the action was
     blocked. If you see cmd.exe launch, it was not blocked.
 
 ![A screenshot of a computer Description automatically
@@ -435,19 +419,19 @@ generated](./media/image67.png)
 ![A screenshot of a computer Description automatically
 generated](./media/image68.png)
 
-23. Right click inside the folder, then navigate and click on **Open in
+28. Right click inside the folder, then navigate and click on **Open in
     Terminal**.
 
 ![](./media/image69.png)
 
-24. Type +++**ls**+++ to get the list of the scripts in the folder.
+29. Type +++**ls**+++ to get the list of the scripts in the folder.
     Then, execute the following script:
 
 +++**./SQLDumper.exe**+++
 
 ![](./media/image70.png)
 
-25. Wait for **25-30 minutes** for the generated alerts to be ingested
+30. Wait for **25-30 minutes** for the generated alerts to be ingested
     in Microsoft Sentinel.
 
 **Task 5: Use Kusto Query Language to find alert details**
