@@ -206,7 +206,23 @@ generated](./media/image29.png)
 
 **Task 2: Executing Malicious Documents and Scripts**
 
-1.  In **Git Bash**, execute the following command to download
+1. In testvm1 search bar, +++**type virus & threat protection**+++ then open it. 
+  
+![](./media/kh3.png)
+
+2. In **type virus & threat protection** page, scroll down and click on **Manage settings**.
+
+![](./media/khan1.png)
+
+![](./media/khan2.png)
+
+3. Turn the toggle off for **Real-time protection**, **cloud-delivered protection**, **Automatic sample submission**, **Tamper protection** as showed in the below images. 
+  
+![](./media/kh4.png)
+
+![](./media/kh5.png)
+  
+4.  In **Git Bash**, execute the following command to download
     **examples** folder containing various malware files and scripts.
 
   `+++git clone https://github.com/directorcia/examples+++
@@ -216,47 +232,47 @@ generated](./media/image29.png)
 ![A computer screen with white text Description automatically
 generated](./media/image49.png)
 
-2.  Navigate to **C:\Users\Admin5802**, then click on **examples**
+5.  Navigate to **C:\Users\Admin5802**, then click on **examples**
     folder as shown in the below image.
 
 ![A screenshot of a computer Description automatically
 generated](./media/image50.png)
 
-3.  You will see various malwares files and script.
+6.  You will see various malwares files and script.
 
 ![A screenshot of a computer Description automatically
 generated](./media/image51.png)
 
 **Note**: Windows Security attempts to identify and remove any malicious documents. If you did not find any malicious document mentioned in the step, then skip that particular step and proceed to the next, as the primary goal of this task is to generate alerts in the Defender portal.
 
-4.  Right click on **RS4_WinATP-Intro-Invoice** and open the file in
+7.  Right click on **RS4_WinATP-Intro-Invoice** and open the file in
     word.
 
 ![A screenshot of a computer Description automatically
 generated](./media/image52.png)
 
-5.  You will be prompted to enter the password, provide the password as
+8.  You will be prompted to enter the password, provide the password as
     `WDATP!diy#` and click on the **OK** button.
 
 ![A screenshot of a computer Description automatically
 generated](./media/image53.png)
 
-6.  The file will open with a **SECURITY WARNING**, click on the
+9.  The file will open with a **SECURITY WARNING**, click on the
     **Enable content** button as shown in the below image.
 
 ![A screenshot of a computer Description automatically
 generated](./media/image54.png)
 
-7.  You’ll be prompted about a demo attack, click on the **OK** button.
+10.  You’ll be prompted about a demo attack, click on the **OK** button.
 
 ![A screenshot of a computer Description automatically
 generated](./media/image55.png)
 
-8.  A new file **WinATP-Intro-Backdoor.exe**, which represents the
+11.  A new file **WinATP-Intro-Backdoor.exe**, which represents the
     backdoor, is created onto the Desktop by a PowerShell script
     launched from the word document.
 
-9.  The script goes on to create a scheduled task to launch the backdoor
+12.  The script goes on to create a scheduled task to launch the backdoor
     at a predefined time. This mechanism of indirect process launch is
     sometimes used for stealth, as it is harder to trace back to the
     document. After the attack scenario completed, close the command
@@ -274,13 +290,13 @@ see the Command Prompt window, then move on to the next step.
 ![A screenshot of a computer Description automatically
 generated](./media/image57.png)
 
-10. Now, navigate and open
+13. Now, navigate and open
     **TestFile_Block_Office_applications_from_creating_executable** in
     word as shown in the below image.
 
 ![](./media/image58.png)
 
-11. Click on **Enable content**, it will execute another ransomware
+14. Click on **Enable content**, it will execute another ransomware
     attack in **testvm1**.
 
 ![](./media/image59.png)
@@ -291,12 +307,12 @@ the **OK** button.
 ![A screenshot of a computer Description automatically
 generated](./media/image60.png)
 
-12. Now, open **TestFile+OfficeChildProcess** file in word.
+15. Now, open **TestFile+OfficeChildProcess** file in word.
 
 ![A screenshot of a computer Description automatically
 generated](./media/image61.png)
 
-13. Click on **Enable Content**. If you see an error, the action was
+16. Click on **Enable Content**. If you see an error, the action was
     blocked. If you see cmd.exe launch, it was not blocked.
 
 ![A screenshot of a computer Description automatically
@@ -313,25 +329,25 @@ malicious, the output of the command will not be the same. Sometimes the
 script execute, sometimes it will be blocked and you may encounter an
 error.
 
-14. Right click inside the folder, then navigate and click on **Open in
+17. Right click inside the folder, then navigate and click on **Open in
     Terminal**.
 
  ![Screenshot](./media/image4a.png)
 
-15. Type +++**ls**+++ to get the list of the
+18. Type +++**ls**+++ to get the list of the
     scripts in the folder. Then, execute the following script:
 
  +++**./SQLDumper.exe**+++
 
  ![](./media/image4b.png)
 
-16. Run the following command:
+19. Run the following command:
 
  +++**.\wdtestfile.exe**+++
 
  ![](./media/image4c.png)
 
-17. After the command successfully executed, press the **Enter** button.
+20. After the command successfully executed, press the **Enter** button.
 
  ![A screenshot of a computer Description automatically
  generated](./media/image4d.png)
