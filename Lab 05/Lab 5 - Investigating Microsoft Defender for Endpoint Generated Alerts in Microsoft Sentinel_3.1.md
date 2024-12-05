@@ -1,4 +1,4 @@
-## **Lab 5: Investigating Microsoft Defender for Endpoint Generated Real-Time Alerts in Microsoft Sentinel**
+![image](https://github.com/user-attachments/assets/53cc86d9-e00a-4507-a9b9-f0e4f00b50e6)## **Lab 5: Investigating Microsoft Defender for Endpoint Generated Real-Time Alerts in Microsoft Sentinel**
 
 ## Introduction
 
@@ -216,50 +216,44 @@ generated](./media/image29.png)
 
 ![](./media/image31.png)
 
-4.  If prompted, then **Approve sign in request** in your authenticator
-    app.
-
-![A screenshot of a computer Description automatically
-generated](./media/image32.png)
-
-5.  In **Stay signed in?** window, click on the **Yes** button.
+4.  In **Stay signed in?** window, click on the **Yes** button.
 
 ![](./media/image33.png)
 
-6.  In **Get your SIEM and XDR in one place** dialog box, click on
+5.  In **Get your SIEM and XDR in one place** dialog box, click on
     **Connect a workspace** button.
 
 ![](./media/image34.png)
 
-7.  Select **MylogworkspaceXXXX** workspace and click on the **Next**
+6.  Select **MylogworkspaceXXXX** workspace and click on the **Next**
     button.
 
 ![](./media/image35.png)
 
-8.  In the **Review changes** page, click on the **Connect** button.
+7.  In the **Review changes** page, click on the **Connect** button.
 
 ![A screenshot of a computer Description automatically
 generated](./media/image36.png)
 
-9.  Wait for few minutes for the workspace to be successfully connected
+8.  Wait for few minutes for the workspace to be successfully connected
     to Microsoft 365 Defender. After workspace successfully connected,
     click on the **Close** button.
 
 ![](./media/image37.png)
 
-10. Go back to Azure portal. In the Azure portal search bar, type
+9. Go back to Azure portal. In the Azure portal search bar, type
     +++**Microsoft Sentinel**+++, then navigate and click on **Microsoft
     Sentinel** under **Services**.
 
 ![](./media/image38.png)
 
-11. In the Microsoft Sentinel page, navigate and click on
+10. In the Microsoft Sentinel page, navigate and click on
     **MylogworkspaceXXXX** workspace.
 
 ![A screenshot of a computer Description automatically
 generated](./media/image39.png)
 
-12. Click on **Threat management** and then click on **Incidents**. You
+11. Click on **Threat management** and then click on **Incidents**. You
     will observe that there are no **Open incidents**/**New incidents**.
     In the next task, we will create incidents again in the testvm1.
 
@@ -324,11 +318,23 @@ generated](./media/image48.png)
 
 ![A screenshot of a computer error Description automatically
 generated](./media/image49.png)
+  
+11.  Navigate to **C:** folder. Delete the RanSim folder.
+![](./media/ransim1.png)
 
-9.  Navigate to **C:\Users\Admin\5802\RanSim** folder. Click anywhere
-    inside the folder, then right click and select **Open in terminal**.
+12. Now, navigate to **C:\Users\Admin5802\RanSim** folder, copy the RanSim folder, paste it into **C:** because Windows Security previously removed the executed RanSim PowerShell script.
+    
+![](./media/ransim2.png)
 
-**,**![](./media/image50.png)
+![](./media/ransim3.png)
+   
+12. Open the RanSim folder. Click anywhere inside the folder, then right click and select **Open in terminal**.
+
+![](./media/image50.png)
+
+9.  Navigate to **C:\Users\Admin5802\RanSim** folder. Click anywhere inside the folder, then right click and select **Open in terminal**.
+
+![](./media/image50.png)
 
 10. In the command prompt, execute the following command to initiate a
     ransomware attack.
@@ -351,6 +357,8 @@ generated](./media/image51.png)
 generated](./media/image53.png)
 
 12. You will see various malwares files and script.
+
+**Note**: In case, you did not find any word file mentioned in the step, then ignore that step and move on to the next step, as Windows Security might have removed that particular malicious file.
 
 ![A screenshot of a computer Description automatically
 generated](./media/image54.png)
