@@ -56,7 +56,7 @@ Security.
 4.  In **Create Log Analytics workspace** page, enter the following
     details, then click on **Review and create** button.
 
-| column 1 | column 2 |
+| Setting | Description/Selection |
 |:---------|:---------|
 | **Subscription**   | Select the assigned **Azure Pass -- Sponsorship**.|
 | **Resource Group** | Select the resource group that you've created previously (**MCS-RG**) |
