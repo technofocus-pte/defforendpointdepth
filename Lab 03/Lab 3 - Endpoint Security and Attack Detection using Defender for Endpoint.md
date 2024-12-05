@@ -1,4 +1,4 @@
-## Lab 3: Endpoint Security and Attack Detection using Defender for Endpoint
+## **Lab 3: Endpoint Security and Attack Detection using Defender for Endpoint**
 
 **Introduction**
 
@@ -213,11 +213,11 @@ on the system you execute it on.
 
 1.  Download the RanSim folder in testvm1 using the following script:
 
-    git clone https://github.com/lawndoc/RanSim.git
-
+    +++**git clone https://github.com/lawndoc/RanSim.git**+++
+    
     ![](./media/image31.png)
 
-2.  In the **testVM1,** navigate to **C:\Users\Admin5802** folder, you
+3.  In the **testVM1,** navigate to **C:\Users\Admin5802** folder, you
     see the **RanSim** folder is successfully downloaded.
 
 ![A screenshot of a computer Description automatically
@@ -328,7 +328,7 @@ generated](./media/image46.png)
 1.  In **Git Bash**, execute the following command to download
     **examples** folder containing various malware files and scripts.
 
-  `git clone https://github.com/directorcia/examples`
+  `+++git clone https://github.com/directorcia/examples+++
 
 ![](./media/image48.png)
 
@@ -345,6 +345,8 @@ generated](./media/image50.png)
 
 ![A screenshot of a computer Description automatically
 generated](./media/image51.png)
+
+**Note**: Windows Security attempts to identify and remove any malicious documents. If you did not find any malicious document mentioned in the step, then skip that particular step and proceed to the next, as the primary goal of this task is to generate alerts in the Defender portal.
 
 4.  Right click on **RS4_WinATP-Intro-Invoice** and open the file in
     word.
