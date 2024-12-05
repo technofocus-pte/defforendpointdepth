@@ -36,7 +36,7 @@ Security.
 
 **Task 1: Creating a workspace and activating Microsoft Sentinel free trial**
 
-1.  In the Azure portal search box, type **Microsoft Sentinel**, then
+1.  In the Azure portal search box, type +++**Microsoft Sentinel**+++, then
     navigate down to **Services** section and click on **Microsoft
     Sentinel** from the list.
 
@@ -56,9 +56,14 @@ Security.
 4.  In **Create Log Analytics workspace** page, enter the following
     details, then click on **Review and create** button.
 
-[TABLE]
+| column 1 | column 2 |
+|:---------|:---------|
+| **Subscription**   | Select the assigned **Azure Pass -- Sponsorship**.|
+| **Resource Group** | Select the resource group that you've created previously (**MCS-RG**) |
+| **Name** | Mylogworkspace+SUFFIX (here, we entered **mylogworkspace5801**)|
+| **Region** | Southeast Asia |
 
-> ![](./media/image4.png)
+![](./media/image4.png)
 
 5.  In **Create Log Analytics workspace** page, after Validation passed,
     click on the **Create** button.
