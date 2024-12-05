@@ -498,14 +498,15 @@ click on **Azure virtual machine**.
 
  ![](./media/image77.png)
 
-**Note**: In case, you did not see **Windows 11 Pro, version 22H2 -x64 Gen2**, then click on **See all images** link, navigate to **Windows 11** tile and click on **Select**. Then, select **Windows 11 Enterprise, version 22H2 - x64 Gen 2** as shown in the below images.
+**Note**: In case, you did not see **Windows 11 Pro, version 22H2 -x64 Gen2**, then click on **See all images** link, navigate to **Windows 11** tile and click on **Select**. Then, select **Windows 11 Pro, version 23H2 - x64 Gen 2** as shown in the below images.
 
 ![](./media/image5a.png)
 
 ![](./media/image5b.png)
 
-![](./media/image6a.png)
+![](./media/kh1.png)
 
+![](./media/kh1.png)
 
 19. Navigate to **Administrator account** section, enter the following
     details and leave all the field in the default state:
@@ -683,14 +684,15 @@ generated](./media/image103.png)
 
 ![](./media/image105.png)
 
-**Note**: In case, you did not see **Windows 11 Pro, version 22H2 -x64 Gen2**, then click on **See all images** link, navigate to **Windows 11** tile and click on **Select**. Then, select **Windows 11 Enterprise, version 22H2 - x64 Gen 2** as shown in the below images.
+**Note**: In case, you did not see **Windows 11 Pro, version 22H2 -x64 Gen2**, then click on **See all images** link, navigate to **Windows 11** tile and click on **Select**. Then, select **Windows 11 Pro, version 23H2 - x64 Gen 2** as shown in the below images.
 
 ![](./media/image5a.png)
 
 ![](./media/image5b.png)
 
-![](./media/image6a.png)
+![](./media/kh1.png)
 
+![](./media/kh1.png)
 
 6.  Navigate to **Administrator account** section, enter the following
     details and leave all the field in the default state:
