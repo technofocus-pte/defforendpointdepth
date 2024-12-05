@@ -322,7 +322,7 @@ generated](./media/image49.png)
 
 ![](./media/ransim3.png)
    
-14. Click anywhere inside the folder, then right click and select **Open in terminal**.
+14. Open the folder and click anywhere inside the folder, then right click and select **Open in terminal**.
 
 ![](./media/image50.png)
 
