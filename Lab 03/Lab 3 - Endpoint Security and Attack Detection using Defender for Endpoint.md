@@ -204,7 +204,111 @@ generated](./media/image29.png)
 
 ![](./media/image30.png)
 
-**Task 2: Performing a ransomware attack using RanSim**
+**Task 2: Executing Malicious Documents and Scripts**
+
+1.  In **Git Bash**, execute the following command to download
+    **examples** folder containing various malware files and scripts.
+
+  `+++git clone https://github.com/directorcia/examples+++
+
+![](./media/image48.png)
+
+![A computer screen with white text Description automatically
+generated](./media/image49.png)
+
+2.  Navigate to **C:\Users\Admin5802**, then click on **examples**
+    folder as shown in the below image.
+
+![A screenshot of a computer Description automatically
+generated](./media/image50.png)
+
+3.  You will see various malwares files and script.
+
+![A screenshot of a computer Description automatically
+generated](./media/image51.png)
+
+**Note**: Windows Security attempts to identify and remove any malicious documents. If you did not find any malicious document mentioned in the step, then skip that particular step and proceed to the next, as the primary goal of this task is to generate alerts in the Defender portal.
+
+4.  Right click on **RS4_WinATP-Intro-Invoice** and open the file in
+    word.
+
+![A screenshot of a computer Description automatically
+generated](./media/image52.png)
+
+5.  You will be prompted to enter the password, provide the password as
+    `WDATP!diy#` and click on the **OK** button.
+
+![A screenshot of a computer Description automatically
+generated](./media/image53.png)
+
+6.  The file will open with a **SECURITY WARNING**, click on the
+    **Enable content** button as shown in the below image.
+
+![A screenshot of a computer Description automatically
+generated](./media/image54.png)
+
+7.  You’ll be prompted about a demo attack, click on the **OK** button.
+
+![A screenshot of a computer Description automatically
+generated](./media/image55.png)
+
+8.  A new file **WinATP-Intro-Backdoor.exe**, which represents the
+    backdoor, is created onto the Desktop by a PowerShell script
+    launched from the word document.
+
+9.  The script goes on to create a scheduled task to launch the backdoor
+    at a predefined time. This mechanism of indirect process launch is
+    sometimes used for stealth, as it is harder to trace back to the
+    document. After the attack scenario completed, close the command
+    prompt.
+
+**Note**: When the backdoor is launched, it creates an auto-start entry
+under the registry Run key, allowing it to stay persistent by starting
+automatically with Windows. A Command Prompt window opens, indicating
+that the simulated backdoor is running. Close the Command Prompt window
+to end the **WinATP-Intro-Backdoor.exe** process. In case, you did not
+see the Command Prompt window, then move on to the next step.
+
+![](./media/image56.png)
+
+![A screenshot of a computer Description automatically
+generated](./media/image57.png)
+
+10. Now, navigate and open
+    **TestFile_Block_Office_applications_from_creating_executable** in
+    word as shown in the below image.
+
+![](./media/image58.png)
+
+11. Click on **Enable content**, it will execute another ransomware
+    attack in **testvm1**.
+
+![](./media/image59.png)
+
+In case, **Microsoft Word Security Notice** dialog box appears, click on
+the **OK** button.
+
+![A screenshot of a computer Description automatically
+generated](./media/image60.png)
+
+12. Now, open **TestFile+OfficeChildProcess** file in word.
+
+![A screenshot of a computer Description automatically
+generated](./media/image61.png)
+
+13. Click on **Enable Content**. If you see an error, the action was
+    blocked. If you see cmd.exe launch, it was not blocked.
+
+![A screenshot of a computer Description automatically
+generated](./media/image62.png)
+
+![A screenshot of a computer Description automatically
+generated](./media/image63.png)
+
+**Note**: Alerts generated will be started within 15-30 minutes in
+Microsoft Defender Portal.
+
+**Task 3: Performing a ransomware attack using RanSim**
 
 RanSim is a ransomware simulation script written in PowerShell. It
 recursively encrypts files in the target directory using 256-bit AES
@@ -323,109 +427,6 @@ generated](./media/image46.png)
 
 ![](./media/image47.png)
 
-**Task 3: Executing Malicious Documents and Scripts**
-
-1.  In **Git Bash**, execute the following command to download
-    **examples** folder containing various malware files and scripts.
-
-  `+++git clone https://github.com/directorcia/examples+++
-
-![](./media/image48.png)
-
-![A computer screen with white text Description automatically
-generated](./media/image49.png)
-
-2.  Navigate to **C:\Users\Admin5802**, then click on **examples**
-    folder as shown in the below image.
-
-![A screenshot of a computer Description automatically
-generated](./media/image50.png)
-
-3.  You will see various malwares files and script.
-
-![A screenshot of a computer Description automatically
-generated](./media/image51.png)
-
-**Note**: Windows Security attempts to identify and remove any malicious documents. If you did not find any malicious document mentioned in the step, then skip that particular step and proceed to the next, as the primary goal of this task is to generate alerts in the Defender portal.
-
-4.  Right click on **RS4_WinATP-Intro-Invoice** and open the file in
-    word.
-
-![A screenshot of a computer Description automatically
-generated](./media/image52.png)
-
-5.  You will be prompted to enter the password, provide the password as
-    `WDATP!diy#` and click on the **OK** button.
-
-![A screenshot of a computer Description automatically
-generated](./media/image53.png)
-
-6.  The file will open with a **SECURITY WARNING**, click on the
-    **Enable content** button as shown in the below image.
-
-![A screenshot of a computer Description automatically
-generated](./media/image54.png)
-
-7.  You’ll be prompted about a demo attack, click on the **OK** button.
-
-![A screenshot of a computer Description automatically
-generated](./media/image55.png)
-
-8.  A new file **WinATP-Intro-Backdoor.exe**, which represents the
-    backdoor, is created onto the Desktop by a PowerShell script
-    launched from the word document.
-
-9.  The script goes on to create a scheduled task to launch the backdoor
-    at a predefined time. This mechanism of indirect process launch is
-    sometimes used for stealth, as it is harder to trace back to the
-    document. After the attack scenario completed, close the command
-    prompt.
-
-**Note**: When the backdoor is launched, it creates an auto-start entry
-under the registry Run key, allowing it to stay persistent by starting
-automatically with Windows. A Command Prompt window opens, indicating
-that the simulated backdoor is running. Close the Command Prompt window
-to end the **WinATP-Intro-Backdoor.exe** process. In case, you did not
-see the Command Prompt window, then move on to the next step.
-
-![](./media/image56.png)
-
-![A screenshot of a computer Description automatically
-generated](./media/image57.png)
-
-10. Now, navigate and open
-    **TestFile_Block_Office_applications_from_creating_executable** in
-    word as shown in the below image.
-
-![](./media/image58.png)
-
-11. Click on **Enable content**, it will execute another ransomware
-    attack in **testvm1**.
-
-![](./media/image59.png)
-
-In case, **Microsoft Word Security Notice** dialog box appears, click on
-the **OK** button.
-
-![A screenshot of a computer Description automatically
-generated](./media/image60.png)
-
-12. Now, open **TestFile+OfficeChildProcess** file in word.
-
-![A screenshot of a computer Description automatically
-generated](./media/image61.png)
-
-13. Click on **Enable Content**. If you see an error, the action was
-    blocked. If you see cmd.exe launch, it was not blocked.
-
-![A screenshot of a computer Description automatically
-generated](./media/image62.png)
-
-![A screenshot of a computer Description automatically
-generated](./media/image63.png)
-
-**Note**: Alerts generated will be started within 15-30 minutes in
-Microsoft Defender Portal.
 
 **Task 4: Checking protection action and recommendations from Windows Security**
 
