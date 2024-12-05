@@ -100,7 +100,7 @@ capabilities**
 
 ![](./media/image10.png)
 
-2.  In the **Content hub** search bar, type **defender for endpoint**
+2.  In the **Content hub** search bar, type +++**defender for endpoint**+++
     and press the enter button.
 
 > ![A screenshot of a computer Description automatically
@@ -143,7 +143,7 @@ capabilities**
 
 7.  Click on **Microsoft Sentinel | Content hub** link below the Azure
     search bar as shown in the below image. In the **Microsoft Sentinel
-    | Content hub** page search bar, type **Microsoft Defender XDR** and
+    | Content hub** page search bar, type +++**Microsoft Defender XDR**+++ and
     press the enter button. Scroll down and select **Microsoft Defender
     XDR**.
 
@@ -206,7 +206,7 @@ generated](./media/image29.png)
 **Task 3: Connecting Microsoft Sentinel Workspace with Microsoft Defender**
 
 1.  Open a new address bar and enter the following link to open the
-    Microsoft Defender Portal: **<https://security.microsoft.com>**
+    Microsoft Defender Portal: +++**https://security.microsoft.com**+++
 
 2.  Select your O365 tenant ID.
 
