@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/53cc86d9-e00a-4507-a9b9-f0e4f00b50e6)## **Lab 5: Investigating Microsoft Defender for Endpoint Generated Real-Time Alerts in Microsoft Sentinel**
+**Lab 5: Investigating Microsoft Defender for Endpoint Generated Real-Time Alerts in Microsoft Sentinel**
 
 ## Introduction
 
