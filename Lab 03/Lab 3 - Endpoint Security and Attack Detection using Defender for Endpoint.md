@@ -305,6 +305,38 @@ generated](./media/image62.png)
 ![A screenshot of a computer Description automatically
 generated](./media/image63.png)
 
+**Running Malicious Script**
+
+**Note**: There are some malicious script that you need to execute to
+get the alerts in Microsoft Defender portal. As these scripts are
+malicious, the output of the command will not be the same. Sometimes the
+script execute, sometimes it will be blocked and you may encounter an
+error.
+
+14. Right click inside the folder, then navigate and click on **Open in
+    Terminal**.
+
+ ![Screenshot](./media/image4a.png)
+
+15. Type +++**ls**+++ to get the list of the
+    scripts in the folder. Then, execute the following script:
+
+ +++**./SQLDumper.exe**+++
+
+ ![](./media/image4b.png)
+
+16. Run the following command:
+
+ +++**.\wdtestfile.exe**+++
+
+ ![](./media/image4c.png)
+
+17. After the command successfully executed, press the **Enter** button.
+
+ ![A screenshot of a computer Description automatically
+ generated](./media/image4d.png)
+
+
 **Note**: Alerts generated will be started within 15-30 minutes in
 Microsoft Defender Portal.
 
